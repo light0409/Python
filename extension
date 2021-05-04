@@ -1,0 +1,7 @@
+filename = input("Input the Filename: ")
+f_extns = filename.split(".")
+print (f_extns)
+if (f_extns[-1] == 'py'):
+    print("The extension of the file type is:python")
+elif (f_extns[-1] =='c'):
+    print("The extension of the file type is:C")
