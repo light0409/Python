@@ -1,0 +1,23 @@
+n1 = int(input("Enter number of elements in list1 : "))
+n2=int(input("Enter number of elements in list2: "))
+list1 = list(map(int,input("list1 =").strip().split()))[:n1]
+num1=0
+num2=0
+list2 = list(map(int,input("list2 =").strip().split()))[:n2]
+
+while(num1< len(list1)):
+      
+    # checking condition
+    if list1[num1] >= 0:
+        print(list1[num1], end = " ")
+      
+    # increment num1
+    num1 += 1
+while(num2 < len(list2)):
+      
+    # checking condition
+    if list2[num2] >= 0:
+        print(list2[num2], end = " ")
+      
+    # increment num 
+    num2 += 1
